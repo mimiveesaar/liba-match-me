@@ -1,11 +1,11 @@
-import { AlienCard } from "./AlienCard";
+import { MatchCard } from "./MatchCard";
 
 export default {
-  title: "Components/AlienCard",
-  component: AlienCard,
+  title: "Components/MatchCard",
+  component: MatchCard,
 };
 
-const Template = (args) => <AlienCard {...args} />;
+const Template = (args) => <MatchCard {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
