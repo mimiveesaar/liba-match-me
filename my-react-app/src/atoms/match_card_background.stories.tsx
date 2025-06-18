@@ -1,4 +1,4 @@
-import { CardBackground } from "../components/Matches/cards/MatchCardBackground";
+import { CardBackground } from "./match_card_background";
 
 export default {
   title: "Atoms/CardBackground",
