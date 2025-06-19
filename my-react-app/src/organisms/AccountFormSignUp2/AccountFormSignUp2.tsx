@@ -6,7 +6,7 @@ import { NextPageIconButton } from "../../atoms/NextPageIconButton/NextPageIconB
 import { CircleWrapper } from "../../atoms/CircleWrapper/CircleWrapper";
 import { useState } from "react";
 
-export const AccountForm = () => {
+export const AccountFormSignUp2 = () => {
   const [planet, setPlanet] = useState("");
   const [lookingFor, setLookingFor] = useState("");
   const [interests, setInterests] = useState("");
@@ -14,7 +14,7 @@ export const AccountForm = () => {
 
   return (
     <div className="flex items-center justify-center min-h-screen">
-      <CircleWrapper size="w-[600px] h-[600px]" backgroundColor="bg-teal-100 bg-opacity-10" className="p-8 text-center">
+      <CircleWrapper size="w-[600px] h-[600px]" backgroundColor="bg-blue bg-opacity-10" className="p-8 text-center">
         <div className="w-full px-6 py-8 text-center">
           <div className="w-full">
             <h2 className="text-lg font-semibold mb-6">New Account</h2>
