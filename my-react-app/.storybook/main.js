@@ -8,7 +8,7 @@ const config = {
   ],
   "addons": [
     "@chromatic-com/storybook",
-    "@storybook/addon-docs",
+      // "@storybook/addon-docs",
     "@storybook/addon-a11y",
     "@storybook/addon-vitest"
   ],
