@@ -6,14 +6,14 @@ interface CircleWrapperProps {
   children: ReactNode;
   size?: string;
   className?: string;
-  backgroundColor?: string; // optional background
+  backgroundColor?: string;
 }
 
 export const CircleWrapper = ({
   children,
   size = "w-40 h-40",
   className = "",
-  backgroundColor = "bg-blue",
+  backgroundColor = "bg-minty", // Tailwind class
 }: CircleWrapperProps) => {
   return (
     <div
