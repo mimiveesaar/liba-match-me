@@ -1,7 +1,6 @@
 "use client";
 
 import { LabeledInputField } from "../../molecules/LabeledInputField/LabeledInputField";
-import { LabeledMultiLineInput } from "../../molecules/LabeledMultiLineInput/LabeledMultiLineInput";
 import { NextPageIconButton } from "../../atoms/NextPageIconButton/NextPageIconButton";
 import { CircleWrapper } from "../../atoms/CircleWrapper/CircleWrapper";
 import { useState } from "react";
