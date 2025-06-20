@@ -24,7 +24,7 @@ export const AccountFormSignUp3 = () => {
               <CameraIcon />
             </div>
 
-            {/* TODOO: Implement profile picture upload functionality */}
+            {/* TODOO: Implement profile pictudre upload functionality */}
 
             <LabeledMultiLineInput
               placeholder="Bio (optional)"
