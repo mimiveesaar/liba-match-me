@@ -3,7 +3,7 @@ interface NextPageIconButtonProps {
 }
 
 export const NextPageIconButton = ({ onClick }: NextPageIconButtonProps) => (
-  <button onClick={onClick} className="text-2xl font-bold text-gray-700 hover:text-black">
+  <button onClick={onClick} className="bg-transparent text-2xl font-bold text-gray-700 hover:text-black ">
     &gt;
   </button>
 );
