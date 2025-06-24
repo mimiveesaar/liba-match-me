@@ -14,6 +14,16 @@ module.exports = {
         coral: '#EF764E',
         limeburst: '#30F84E',
       },
+      borderRadius: {
+        custom_16: "16px", 
+      },
+      width: {
+        265: "265px",
+      },
+      height: {
+        196: "196px",
+        360: "360px",
+      },
     },
   },
   plugins: [],
