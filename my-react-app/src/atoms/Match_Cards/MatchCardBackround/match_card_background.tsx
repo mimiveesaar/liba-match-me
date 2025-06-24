@@ -13,7 +13,7 @@ function Card({ color = "minty", children }: CardProps) {
     coral: "bg-coral",
   };
 
-  const bgClass = bgClassMap[color] || bgClassMap.minty;
+  const bgClass = bgClassMap[color] || bgClassMap.olive;
 
   return (
     <div

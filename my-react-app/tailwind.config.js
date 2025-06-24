@@ -13,14 +13,18 @@ module.exports = {
         moss: '#BCC5AA',
         coral: '#EF764E',
         limeburst: '#30F84E',
+        ivory: '#FFFCF7',
       },
       borderRadius: {
+        custom_4: "4px",
         custom_16: "16px", 
       },
       width: {
         265: "265px",
+        77: "77px",
       },
       height: {
+        17: "17px",
         196: "196px",
         360: "360px",
       },
