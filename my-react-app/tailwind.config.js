@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        noto_serif: ['Noto Serif', 'serif'],
+      },
       colors: {
         olive: '#DBDB72',
         amberglow: '#FDC167',
