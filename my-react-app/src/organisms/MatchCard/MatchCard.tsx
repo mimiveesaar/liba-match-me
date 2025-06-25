@@ -4,6 +4,7 @@ import { MatchCardProfilePic } from "../../atoms/Match_Cards/ProfilePicture/matc
 import { LocationTag } from "../../atoms/Match_Cards/Tags/LocationTag/location_tag";
 import { RelationshipTypeTag } from "../../atoms/Match_Cards/Tags/RelationshipTypeTag/relationship_type_tag";
 import { Username } from "../../atoms/Match_Cards/UserName/username";
+import { ButtonTriangle } from "../../molecules/MatchCardButtons/match_card_buttons";
 
 
 type MatchCardProps = {
@@ -21,28 +22,33 @@ export function MatchCard({
 }: MatchCardProps) {
   return (
     <div className="hover:scale-105 transition-transform duration-50">
-    <MatchCardBackground color={"olive"}>
-      <div className="flex flex-col items-center h-full relative">
+      <MatchCardBackground color={"olive"}>
+        <div className="flex flex-col items-center h-full relative">
 
-        <div className="relative w-265 h-196">
+          <div className="relative w-265 h-196">
             <MatchCardProfilePic src={"default-profile.png"} alt={alt} />
 
             <div className="w-full pl-3 pt-2 absolute bottom-1 left-1 flex gap-1">
               <Username username="Shelly" />
               <Age age="64" />
             </div>
-         </div>
+          </div>
 
-        <div className="w-full pt-2 pl-3 self-start">
-            <LocationTag location={location} /> 
+          <div className="grid grid-cols-[auto_1fr] items-start w-full pt-2 px-3">
+            
+            <div className="flex flex-col gap-1">
+              <LocationTag location={location} />
+              <RelationshipTypeTag relationshipType="Astral companion" />
+            </div>
+
+            <div className="flex justify-end">
+              <ButtonTriangle />
+            </div>
+
+          </div>
+
         </div>
-
-        <div className="w-full pt-1 pl-3 self-start">
-            <RelationshipTypeTag relationshipType="Astral companion" /> 
-        </div>
-
-      </div>
-    </MatchCardBackground>
+      </MatchCardBackground>
     </div>
   );
 }

@@ -24,8 +24,10 @@ module.exports = {
         custom_16: "16px", 
       },
       width: {
-        265: "265px",
         77: "77px",
+        100: "100px",
+        265: "265px",
+        
       },
       height: {
         17: "17px",
