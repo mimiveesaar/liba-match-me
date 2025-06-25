@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         noto_serif: ['Noto Serif', 'serif'],
+        ibm_plex_sans: ['IBM Plex Sans', 'sans-serif'],
       },
       colors: {
         olive: '#DBDB72',
