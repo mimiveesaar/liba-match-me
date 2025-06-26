@@ -1,7 +1,7 @@
 import { RelationshipTypeTag } from "./relationship_type_tag";
 
 export default {
-  title: "Atoms/Tags/RelationshipTypeTag",
+  title: "Atoms/Match_Cards/Tags/RelationshipTypeTag",
   component: RelationshipTypeTag,
 };
 

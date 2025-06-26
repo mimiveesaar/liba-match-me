@@ -1,7 +1,7 @@
 import { Username } from './username';
 
 export default {
-  title: 'Atoms/UserName',
+  title: 'Atoms/Match_Cards/UserName',
   component: Username,
 };
 

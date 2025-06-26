@@ -4,7 +4,7 @@ type UsernameProps = {
 
 export function Username({ username }: UsernameProps) {
   return (
-    <span className="text-ivory text-lg font-medium font-ibm_plex_sans">
+    <span className="text-ivory text-2xl font-medium font-ibm_plex_sans">
       {username}
     </span>
   );

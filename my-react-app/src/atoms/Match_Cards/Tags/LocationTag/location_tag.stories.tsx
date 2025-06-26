@@ -1,7 +1,7 @@
 import { LocationTag } from "./location_tag";
 
 export default {
-  title: "Atoms/Tags/LocationTag",
+  title: "Atoms/Match_Cards/Tags/LocationTag",
   component: LocationTag,
 };
 
